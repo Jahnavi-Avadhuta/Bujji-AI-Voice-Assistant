@@ -1,5 +1,73 @@
 music = {
-    "salaar" : "https://youtu.be/EqFpIq2Ymo4?si=whdCdGnsbpgvd5re",
-    "billa" : "https://youtu.be/pfNF2Vqr3l0?si=NjcgVIr5-OKjFnqh",
-    "varsham" : "https://youtu.be/JVViG-df9mY?si=amxBUvdYl_zfYK0T"
+    "salaar": "https://youtu.be/EqFpIq2Ymo4?si=whdCdGnsbpgvd5re",
+    "billa": "https://youtu.be/pfNF2Vqr3l0?si=NjcgVIr5-OKjFnqh",
+    "varsham": "https://youtu.be/JVViG-df9mY?si=amxBUvdYl_zfYK0T",
+    "idhedho bagundhe": "https://www.youtube.com/results?search_query=Idhedho+Bagundhe+Mirchi",
+    "pandagala": "https://www.youtube.com/results?search_query=Pandagala+Mirchi",
+    "darlinge osina darlinge": "https://www.youtube.com/results?search_query=Darlinge+Osina+Darlinge",
+    "neeve": "https://www.youtube.com/results?search_query=Neeve+Darling+song",
+    "inka edo": "https://www.youtube.com/results?search_query=Inka+Edo+Darling+song",
+    "chali chaliga": "https://www.youtube.com/results?search_query=Chali+Chaliga+Mr+Perfect",
+    "badhulu thochanai": "https://www.youtube.com/results?search_query=Badhulu+Thochanai+Mr+Perfect",
+    "light theesko": "https://www.youtube.com/results?search_query=Light+Theesko+Mr+Perfect",
+    "aakasam badhalaina": "https://www.youtube.com/results?search_query=Aakasam+Badhalaina+Mr+Perfect",
+    "manassa": "https://www.youtube.com/results?search_query=Manassa+Munna",
+    "gundusoodi": "https://www.youtube.com/results?search_query=Gundusoodi+Chatrapathi",
+    "nallani vaadu": "https://www.youtube.com/results?search_query=Nallani+Vaadu+Chatrapathi",
+    "mellaga": "https://www.youtube.com/results?search_query=Mellaga+Varsham",
+    "nuvvosthanante": "https://www.youtube.com/results?search_query=Nuvvosthanante+Varsham",
+    "kopama napaina": "https://www.youtube.com/results?search_query=Kopama+Napaina+Varsham",
+    "dhadak dhadak": "https://www.youtube.com/results?search_query=Dhadak+Dhadak+Bujjigadu",
+    "love me": "https://www.youtube.com/results?search_query=Love+Me+Bujjigadu",
+    "ek niranjan": "https://www.youtube.com/results?search_query=Ek+Niranjan+Title+Song",
+    "evarulerani": "https://www.youtube.com/results?search_query=Evarulerani+Ek+Niranjan",
+    "oororo yogi": "https://www.youtube.com/results?search_query=Oororo+Yogi",
+    "koyo koyo": "https://www.youtube.com/results?search_query=Koyo+Koyo+Pournami",
+    "hariloranga hari": "https://www.youtube.com/results?search_query=Hariloranga+Hari+Billa",
+    "my name is billa": "https://www.youtube.com/results?search_query=My+Name+Is+Billa",
+    "ee raathale": "https://www.youtube.com/results?search_query=Ee+Raathale+Radhe+Shyam",
+    "sooreede": "https://www.youtube.com/results?search_query=Sooreede+Salaar",
+    "vinaraa": "https://www.youtube.com/results?search_query=Vinaraa+Salaar",
+    "bhairava anthem": "https://www.youtube.com/results?search_query=Bhairava+Anthem+Kalki+2898+AD"
+
+    # Telugu
+    "pushpa": "https://youtu.be/Q1NKMPhP8PY",
+    "rrr": "https://youtu.be/GY4BgdUSpbE",
+    "bahubali": "https://youtu.be/sOEg_YZQsTI",
+    "ala vaikunthapurramuloo": "https://youtu.be/2mDCVzruYzQ",
+    "geetha govindam": "https://youtu.be/qN3wfuPYTI4",
+    "jersey": "https://youtu.be/4uhM_zzwSmU",
+    "sita ramam": "https://youtu.be/Ljk6tGZ1l3A",
+    "arjun reddy": "https://youtu.be/aozErj9NqeE",
+    "dear comrade": "https://youtu.be/f3FFOBrMmdg",
+    "majili": "https://youtu.be/PrFh1KjV8s8",
+
+    # Hindi
+    "animal": "https://youtu.be/Dydmpfo68DA",
+    "pathaan": "https://youtu.be/vqu4z34wENw",
+    "jawan": "https://youtu.be/MWOlnZSnXJo",
+    "kgf": "https://youtu.be/qXgF-iJ_ezE",
+    "brahmastra": "https://youtu.be/sAzlWScHTc4",
+    "shershaah": "https://youtu.be/Q0FTXnefVBA",
+    "kabir singh": "https://youtu.be/RiANSSgCuJk",
+    "dunki": "https://youtu.be/ACKQDAlAfFE",
+
+    # English
+    "believer": "https://youtu.be/7wtfhZwyrcc",
+    "shape of you": "https://youtu.be/JGwWNGJdvx8",
+    "perfect": "https://youtu.be/2Vv-BfVoq4g",
+    "faded": "https://youtu.be/60ItHLz5WEA",
+    "alone": "https://youtu.be/1-xGerv5FOk",
+    "unstoppable": "https://youtu.be/YaEG2aWJnZ8",
+    "counting stars": "https://youtu.be/hT_nvWreIhg",
+    "let her go": "https://youtu.be/RBumgq5yVrA",
+
+    # Tamil
+    "leo": "https://youtu.be/Po3jStA673E",
+    "vikram": "https://youtu.be/OKBMCL-frPU",
+    "master": "https://youtu.be/UTiXQcrLlv4",
+
+    # Malayalam
+    "hridayam": "https://youtu.be/K7ZB8Q1nQ6M",
+    "premam": "https://youtu.be/3P4BFBSafF0"
 }
