@@ -28,7 +28,7 @@ music = {
     "ee raathale": "https://www.youtube.com/results?search_query=Ee+Raathale+Radhe+Shyam",
     "sooreede": "https://www.youtube.com/results?search_query=Sooreede+Salaar",
     "vinaraa": "https://www.youtube.com/results?search_query=Vinaraa+Salaar",
-    "bhairava anthem": "https://www.youtube.com/results?search_query=Bhairava+Anthem+Kalki+2898+AD"
+    "bhairava anthem": "https://www.youtube.com/results?search_query=Bhairava+Anthem+Kalki+2898+AD",
 
     # Telugu
     "pushpa": "https://youtu.be/Q1NKMPhP8PY",
