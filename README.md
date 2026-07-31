@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/bujji.png" alt="Bujji AI Banner" width="100%">
+  <img src="bujji.png" alt="Bujji AI Banner" width="100%">
 </p>
 
 <h1 align="center">🤖 Bujji AI – Intelligent Voice Assistant</h1>
