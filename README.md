@@ -1,12 +1,32 @@
-# 🤖 Bujji – Intelligent AI Voice Assistant
+<p align="center">
+  <img src="images/bujji-ai-cover.png" alt="Bujji AI Banner" width="100%">
+</p>
 
-Bujji is an AI-powered voice assistant developed using Python. It responds to voice commands, performs various desktop and web-based tasks, fetches real-time news, answers user queries using OpenAI's GPT model, and automates everyday operations through voice interaction.
+<h1 align="center">🤖 Bujji AI – Intelligent Voice Assistant</h1>
 
-This project was developed as a Python Mega Project to demonstrate the integration of Speech Recognition, Text-to-Speech, Artificial Intelligence, Web Automation, and System Utilities.
+<p align="center">
+An AI-powered desktop voice assistant built with Python that combines Speech Recognition, OpenAI, Web Automation, and Desktop Automation to perform everyday tasks using natural voice commands.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.12-blue?logo=python">
+  <img src="https://img.shields.io/badge/OpenAI-GPT-412991">
+  <img src="https://img.shields.io/badge/Platform-Windows-success">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen">
+  <img src="https://img.shields.io/badge/License-Educational-orange">
+</p>
 
 ---
 
-# 📌 Features
+## 📖 Overview
+
+Bujji AI is an intelligent desktop voice assistant developed using Python. It responds to voice commands, answers questions using OpenAI's GPT model, performs desktop automation, opens applications and websites, fetches real-time news, and helps automate daily tasks through natural voice interaction.
+
+This project was built to demonstrate the integration of Artificial Intelligence, Speech Recognition, Text-to-Speech, REST APIs, Desktop Automation, and Python application development.
+
+---
+
+## ✨ Features
 
 ### 🎙 Voice Recognition
 - Listens for the wake word **"Bujji"**
@@ -14,16 +34,18 @@ This project was developed as a Python Mega Project to demonstrate the integrati
 - Automatically adjusts for background noise
 
 ### 🔊 Text-to-Speech
-- Converts text responses into speech
-- Uses **pyttsx3** for offline voice output
+- Converts responses into speech
+- Offline voice synthesis using **pyttsx3**
 
 ### 🤖 AI Assistant
-- Answers general questions using OpenAI GPT
+- AI-powered conversations using OpenAI GPT
+- Answers general knowledge questions
 - Handles unknown commands intelligently
-- Internet availability check before AI requests
+- Checks internet connectivity before making API requests
 
 ### 🌐 Web Automation
 Open websites using voice commands:
+
 - Google
 - YouTube
 - Facebook
@@ -31,63 +53,92 @@ Open websites using voice commands:
 - GitHub
 - ChatGPT
 
-### 🔍 Search Engine Integration
+### 🔍 Search Integration
+
 - Search anything on Google
-- Search videos on YouTube
+- Search YouTube videos
 
 ### 🎵 Music Player
-- Plays songs using predefined links from the music library.
+
+- Plays songs from a predefined music library
 
 ### 📰 Latest News
-- Reads top Indian news headlines using NewsAPI.
+
+- Reads the latest Indian news headlines using NewsAPI
 
 ### 📅 Date & Time
-- Announces current date
-- Announces current time
-- Announces current day
+
+- Current Date
+- Current Time
+- Current Day
 
 ### 💻 Windows Utilities
+
 - Open Calculator
 - Open Notepad
 - Open Visual Studio Code
 - Open File Explorer
 
 ### 🔋 System Utilities
-- Announces battery percentage
-- Captures screenshots
 
-### 💬 Friendly Conversation
+- Battery Percentage
+- Screenshot Capture
+
+### 💬 Smart Conversation
+
 - Greetings
-- Thank you responses
-- Introduces itself
-- Tells who created it
-- Random wake responses for a natural interaction
+- Thank You responses
+- Self Introduction
+- Creator Information
+- Natural wake responses
 
-### ❌ Exit Command
-- Ends the program gracefully using voice commands.
+### ❌ Exit Commands
+
+- Goodbye
+- Exit
+- Stop
 
 ---
 
-# 🛠 Technologies Used
+## 🛠 Tech Stack
 
+### Programming Language
 - Python 3.12
+
+### Artificial Intelligence
+- OpenAI API
+
+### Speech Processing
 - SpeechRecognition
 - pyttsx3
-- OpenAI API
+
+### APIs
 - NewsAPI
-- Requests
-- python-dotenv
+
+### Automation
 - PyAutoGUI
-- psutil
 - Webbrowser
 - Subprocess
 
+### Libraries
+- Requests
+- python-dotenv
+- psutil
+
+### Development Tools
+- VS Code
+- Git
+- GitHub
+
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```
-Bujji/
+```text
+Bujji-AI-Voice-Assistant
+│
+├── images/
+│   └── bujji-ai-cover.png
 │
 ├── main.py
 ├── musicLibrary.py
@@ -99,27 +150,33 @@ Bujji/
 
 ---
 
-# ⚙ Installation
+## 🚀 Getting Started
 
-## Clone the repository
+### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Bujji-AI-Voice-Assistant.git
+git clone https://github.com/Jahnavi-Avadhuta/Bujji-AI-Voice-Assistant.git
 ```
-
-or simply download the project folder.
 
 ---
 
-## Create Virtual Environment
+### 2️⃣ Navigate to the Project
+
+```bash
+cd Bujji-AI-Voice-Assistant
+```
+
+---
+
+### 3️⃣ Create a Virtual Environment
 
 ```bash
 python -m venv env
 ```
 
-Activate it.
+### Activate
 
-### Windows
+**Windows**
 
 ```bash
 env\Scripts\activate
@@ -127,32 +184,19 @@ env\Scripts\activate
 
 ---
 
-## Install Required Packages
+### 4️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-or
-
-```bash
-pip install SpeechRecognition
-pip install pyttsx3
-pip install requests
-pip install openai
-pip install python-dotenv
-pip install pyautogui
-pip install psutil
-pip install pyaudio
-```
-
 ---
 
-# 🔑 Environment Variables
+## 🔑 Environment Variables
 
 Create a file named **.env**
 
-```text
+```env
 OPENAI_API_KEY=your_openai_api_key
 NEWS_API_KEY=your_newsapi_key
 ```
@@ -161,52 +205,44 @@ Never upload your API keys to GitHub.
 
 ---
 
-# 🎤 Sample Voice Commands
+## 🎤 Sample Voice Commands
 
 ### Wake Word
 
-```
+```text
 Bujji
 ```
 
----
-
 ### Websites
 
-```
+```text
 Open Google
 Open YouTube
-Open Facebook
-Open LinkedIn
 Open GitHub
+Open LinkedIn
+Open Facebook
 Open ChatGPT
 ```
 
----
-
 ### Search
 
-```
+```text
 Search Google for Python tutorials
 
 Search YouTube for Java Full Stack
 ```
 
----
-
 ### Music
 
-```
+```text
 Play Believer
 
 Play Shape of You
 ```
 
----
-
 ### Utilities
 
-```
+```text
 What is the time?
 
 What is today's date?
@@ -226,47 +262,39 @@ Open Visual Studio Code
 Open File Explorer
 ```
 
----
-
 ### News
 
-```
+```text
 Tell me today's news
 ```
 
----
-
 ### AI Questions
 
-```
-Explain Artificial Intelligence.
+```text
+Explain Artificial Intelligence
 
 Who invented Python?
 
 What is Machine Learning?
 
-Tell me a joke.
+Tell me a joke
 ```
-
----
 
 ### Conversation
 
-```
+```text
 Hello
-
-Thank you
 
 Who are you?
 
 Who created you?
-```
 
----
+Thank you
+```
 
 ### Exit
 
-```
+```text
 Goodbye
 
 Exit
@@ -276,61 +304,70 @@ Stop
 
 ---
 
-# 📸 Screenshots
+## 🎬 Demo
 
-Add screenshots of:
-
-- Application startup
-- Voice command recognition
-- News reading
-- Google Search
-- Music playback
-- AI response
-- Screenshot feature
+A demonstration video will be added soon.
 
 ---
 
-# 🚀 Future Enhancements
+## 📸 Screenshots
+
+Screenshots and GIF demonstrations will be added soon.
+
+---
+
+## 🚀 Future Enhancements
 
 - Weather Forecast
 - Email Automation
 - WhatsApp Messaging
 - Face Recognition Login
-- Home Automation
 - Voice Authentication
 - Voice Notes
 - Calendar Integration
 - Reminder System
-- Smart Home Device Control
+- Smart Home Automation
 
 ---
 
-# 📖 Learning Outcomes
+## 📚 Learning Outcomes
 
-This project demonstrates:
+This project demonstrates practical implementation of:
 
 - Speech Recognition
 - Text-to-Speech Conversion
-- REST API Integration
 - Artificial Intelligence Integration
+- REST API Integration
 - Web Automation
 - Desktop Automation
-- Error Handling
 - Environment Variable Management
+- Error Handling
 - Python Modular Programming
 
 ---
 
-# 👩‍💻 Developer
+## ⭐ Support
 
-**Jahnavi**
-
-B.Tech – Computer Science and Engineering
-
-Python Mega Project
+If you found this project useful, consider giving it a ⭐ on GitHub.
 
 ---
 
-# 📄 License
+## 👩‍💻 Developer
 
-This project is developed for educational purposes.
+**Jahnavi Avadhuta**
+
+Computer Science Graduate
+
+Software Engineer | Java | Spring Boot | Python | AI & Data Science Enthusiast
+
+🌐 Portfolio: [**YOUR_PORTFOLIO_URL**](https://portfolio-website-zeta-blond-34.vercel.app/)
+
+💼 LinkedIn: [**YOUR_LINKEDIN_URL**](https://www.linkedin.com/in/jahnavi-avadhuta-879b4232b/)
+
+💻 GitHub: https://github.com/Jahnavi-Avadhuta
+
+---
+
+## 📄 License
+
+This project is developed for educational and learning purposes.
