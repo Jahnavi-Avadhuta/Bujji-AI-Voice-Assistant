@@ -137,9 +137,7 @@ Open websites using voice commands:
 ```text
 Bujji-AI-Voice-Assistant
 │
-├── images/
-│   └── bujji-ai-cover.png
-│
+├── bujji.png
 ├── main.py
 ├── musicLibrary.py
 ├── .env
